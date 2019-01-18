@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8714f1ca-a2d9-4612-a869-dd117e64dd99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DemoApiSeq/app/schema/userSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../animationForm/app/image/bg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/.buckconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/.flowconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/.watchmanconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/BUCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/java/com/databaseform/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/java/com/databaseform/MainApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/keystores/BUCK" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/keystores/debug.keystore.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/app/actions/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/app/actions/userAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/app/components/registration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/app/components/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/app/navigation/AppNavigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/app/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/app/reducers/userReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm-tvOS/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm-tvOSTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm.xcodeproj/xcshareddata/xcschemes/databaseForm-tvOS.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm.xcodeproj/xcshareddata/xcschemes/databaseForm.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm/AppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm/AppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm/Base.lproj/LaunchScreen.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm/Images.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm/Images.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseForm/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseFormTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/ios/databaseFormTests/databaseFormTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../databaseForm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam/.idea/runConfigurations/bin_www.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exam/exam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/.idea/node-sequelize-article-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/schema/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/multer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/categoriesController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/productController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/subcategoriesController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/categoriesRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/productRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/subcategoriesRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/userRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/categoriesSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/productSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/subCategoriesSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/userSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../seqDatabase/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/exam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/exam2.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/productController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/productImage/images.jpeg-1547811037354.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/userController.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/productRoutes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/controller/categoriesController.js" />
+        <option value="$PROJECT_DIR$/controller/productController.js" />
+        <option value="$PROJECT_DIR$/routes/categoriesRoutes.js" />
+        <option value="$PROJECT_DIR$/schemas/categoriesSchema.js" />
+        <option value="$PROJECT_DIR$/schemas/productSchema.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/productRoutes.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="132" />
+    <option name="y" value="23" />
+    <option name="width" value="1103" />
+    <option name="height" value="668" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="productImage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
+              <item name="schemas" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.6.0" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8714f1ca-a2d9-4612-a869-dd117e64dd99" name="Default Changelist" comment="" />
+      <created>1547809989521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547809989521</updated>
+      <workItem from="1547810011795" duration="1816000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1816000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="132" y="23" width="1103" height="668" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24768947" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.140625" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/multer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/categoriesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/categoriesRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schemas/categoriesSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schemas/userSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/subcategoriesController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/userRoutes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schemas/productSchema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/productRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/productController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/productImage/images.jpeg-1547811037354.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/userController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
