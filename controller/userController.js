@@ -19,7 +19,6 @@ exports.getUser = (req,res) => {
      })
 }
 
-
 exports.getUserById = (req,res) => {
     //debugger;
     User.findOne({where:{id: req.params.usersId}})

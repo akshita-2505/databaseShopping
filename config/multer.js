@@ -11,7 +11,7 @@ const storage = storageDest =>multer.diskStorage({
         let extArray = file.originalname.split(".");
         let extension = extArray[extArray.length - 1];
         //console.log(file);
-        cb(null, file.originalname + '-' + Date.now()+ '.' +extension)
+        cb(null, Date.now()+ '.' +extension)
     }
 });
 
