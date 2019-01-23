@@ -7,7 +7,8 @@ let UPLOAD_PATH = 'public/productImage';
 router.get('/',user.getUser);
 router.post('/', upload(UPLOAD_PATH).single('image'),user.uploadProduct);
 
-router.get('/:productsId',user.getUserById);
+// router.get('/:productsId',user.getUserById);
+router.get('/:productsId',user.getUserBySCId);
 router.put('/:productsId',user.userUpdateById);
 router.delete('/:productsId',user.deleteUser);
 

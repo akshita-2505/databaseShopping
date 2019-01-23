@@ -38,23 +38,33 @@ exports.getUser = (req,res) => {
 }
 
 
-exports.getUserById = (req,res) => {
+// exports.getUserById = (req,res) => {
+//     //debugger;
+//     Subcategories.findOne({where:{id: req.params.usersId}})
+//         .then((data) =>{
+//             if(data.isChecked == false){
+//                 res.status(200).send({data});
+//             }
+//             else{
+//                 res.status(404).send("data not found");
+//             }
+//         }).catch((err) => {
+//         res.status(404).send(err);
+//     }).catch((err)=>{
+//         res.status(404).send(err);
+//     })
+// }
+exports.getUserByCId = (req,res) => {
     //debugger;
-    Subcategories.findOne({where:{id: req.params.usersId}})
-        .then((data) =>{
-            if(data.isChecked == false){
-                res.status(200).send({data});
-            }
-            else{
-                res.status(404).send("data not found");
-            }
+    Subcategories.findAll({where:{cid: req.params.usersId,isChecked:false}})
+        .then((data) => {
+            res.status(200).send({data});
         }).catch((err) => {
         res.status(404).send(err);
     }).catch((err)=>{
         res.status(404).send(err);
     })
 }
-
 exports.userUpdateById=(req,res)=>{
     Subcategories.findById(req.params.usersId)
         .then((data) => {

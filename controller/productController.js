@@ -45,23 +45,33 @@ exports.getUser = (req,res) => {
 }
 
 
-exports.getUserById = (req,res) => {
+// exports.getUserById = (req,res) => {
+//     //debugger;
+//     Products.findOne({where:{id: req.params.productsId}})
+//         .then((data) =>{
+//             if(data.isChecked == false){
+//                 res.status(200).send({data});
+//             }
+//             else{
+//                 res.status(404).send("data not found");
+//             }
+//         }).catch((err) => {
+//         res.status(404).send(err);
+//     }).catch((err)=>{
+//         res.status(404).send(err);
+//     })
+// }
+exports.getUserBySCId = (req,res) => {
     //debugger;
-    Products.findOne({where:{id: req.params.productsId}})
-        .then((data) =>{
-            if(data.isChecked == false){
-                res.status(200).send({data});
-            }
-            else{
-                res.status(404).send("data not found");
-            }
+    Products.findAll({where:{scid: req.params.productsId,isChecked:false}})
+        .then((data) => {
+            res.status(200).send({data});
         }).catch((err) => {
         res.status(404).send(err);
     }).catch((err)=>{
         res.status(404).send(err);
     })
 }
-
 exports.userUpdateById=(req,res)=>{
     Products.findById(req.params.productsId)
         .then((data) => {
