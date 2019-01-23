@@ -1,4 +1,23 @@
 const Subcategories=require('../schemas/subCategoriesSchema');
+let UPLOAD_PATH = 'public/subcategoryImages';
+
+exports.uploadProduct = (req, res) => {
+    const {body:{cid,name,image}} = req;
+    if(res) {
+        let subcategory= {
+            name,
+            image: req.file && (UPLOAD_PATH+'/'+req.file.filename),
+            cid
+        };
+
+        Subcategories.create(subcategory)
+            .then((res) => res.send({res}))
+            .catch((error) => {
+                console.log(error)
+                return res.status(500).send(error)
+            });
+    }
+};
 
 exports.addUser = (req, res) => {
     Subcategories.create(req.body)

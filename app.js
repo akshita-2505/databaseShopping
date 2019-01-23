@@ -11,16 +11,18 @@ var app = express();
 const {db} = require('./config/db');
 
 db.authenticate().then(() => {
-  console.log('Connection has been established successfully.');
+    console.log('Connection has been established successfully.');
 })
     .catch(err => {
-      console.error('Unable to connect to the database:', err);
+        console.error('Unable to connect to the database:', err);
     });
 
 // var router = express.Router();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public/productImage/')));
+app.use(express.static(path.join(__dirname, 'public/subcategoryImage/')));
+app.use(express.static(path.join(__dirname, 'public/categoryImage/')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
@@ -48,10 +50,10 @@ app.use('/products',productsRouter);
 // });
 
 app.listen(3000, (err, res) => {
-  if(err){
-    console.log("Error occurred "+err.toString());
-  } else {
-    console.log("Server is listening on port 3000")
-  }
+    if(err){
+        console.log("Error occurred "+err.toString());
+    } else {
+        console.log("Server is listening on port 3000")
+    }
 });
 module.exports = app;

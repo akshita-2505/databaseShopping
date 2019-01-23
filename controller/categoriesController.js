@@ -1,4 +1,22 @@
 const Categories=require('../schemas/categoriesSchema');
+let UPLOAD_PATH = 'public/CategoryImages';
+
+exports.uploadProduct = (req, res) => {
+    const {body:{name,image}} = req;
+    if(res) {
+        let category= {
+            name,
+            image: req.file && (UPLOAD_PATH+'/'+req.file.filename),
+        };
+
+        Categories.create(category)
+            .then((res) => res.send({res}))
+            .catch((error) => {
+                console.log(error)
+                return res.status(500).send(error)
+            });
+    }
+};
 
 exports.addUser = (req, res) => {
     Categories.create(req.body)

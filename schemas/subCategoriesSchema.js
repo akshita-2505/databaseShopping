@@ -16,6 +16,9 @@ const Subcategories = db.define('subcategories', {
         type: Sequelize.STRING,
         defaultValue: false
     },
+    image: {
+        type: Sequelize.STRING
+    },
     isChecked: {
         type: Sequelize.BOOLEAN,
         defaultValue:false

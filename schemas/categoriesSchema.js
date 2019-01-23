@@ -10,6 +10,9 @@ const Categories = db.define('categories', {
     name: {
         type: Sequelize.STRING
     },
+    image: {
+    type: Sequelize.STRING
+    },
     isChecked:{
         type: Sequelize.BOOLEAN,
         defaultValue:false
