@@ -2,8 +2,8 @@ const User=require('../schemas/userSchema');
 
 exports.addUser = (req, res) => {
     User.create(req.body)
-        .then((data) =>{
-            res.status(200).send({data});
+        .then((result) =>{
+            res.status(200).send({result});
         }).catch((err)=>{
         res.status(404).send(err);
         })
@@ -42,7 +42,7 @@ exports.userUpdateById=(req,res)=>{
             if(data.isChecked == false){
                 User.update(req.body,{where:{id:req.params.usersId}})
                     .then((data) =>{
-                        res.status(200).send({data});
+                        res.status(200).send({result});
                      }).catch((err)=>{
                     res.status(404).send({message: ' Data not Exist'});
                 });
