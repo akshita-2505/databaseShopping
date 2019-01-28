@@ -2,7 +2,7 @@ const Products=require('../schemas/productSchema');
 let UPLOAD_PATH = 'public/ProductImages';
 
 exports.uploadProduct = (req, res) => {
-    const {body:{name,cid,scid,image,price,quntity,detail}} = req;
+    const {body:{name,cid,scid,image,price,quntity,detail,email}} = req;
     console.log("----enter----"+(cid))
     if(res) {
         let product= {
@@ -12,7 +12,8 @@ exports.uploadProduct = (req, res) => {
             image: req.file && (UPLOAD_PATH+'/'+req.file.filename),
             price,
             quntity,
-            detail
+            detail,
+            email
         };
 
         Products.create(product)
@@ -40,6 +41,18 @@ exports.getUser = (req,res) => {
         .then((data) => {
             res.status(200).send({data});
         }).catch((err) => {
+        res.status(404).send(err);
+    })
+}
+
+exports.getUserByEmail = (req,res) => {
+    //debugger;
+    Products.findAll({where:{email: req.params.productsId,isChecked:false}})
+        .then((data) => {
+            res.status(200).send({data});
+        }).catch((err) => {
+        res.status(404).send(err);
+    }).catch((err)=>{
         res.status(404).send(err);
     })
 }

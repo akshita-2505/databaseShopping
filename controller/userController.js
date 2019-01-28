@@ -60,7 +60,7 @@ exports.userUpdateById=(req,res)=>{
 
 
 exports.deleteUser=(req,res)=>{
-    User.findOne({where:{id: req.params.usersId}})
+    User.findOne({where:{email: req.params.usersId}})
         .then((data) => {
         if(!data) {
             res.status(404).send({message: ' Data not Exist'});
@@ -73,7 +73,7 @@ exports.deleteUser=(req,res)=>{
             }
             else
             {
-                data.update({isChecked: true}, {where: {id: req.params.usersId}}
+                data.update({isChecked: true}, {where: {email: req.params.usersId}}
                 ).then(() => {
                     res.status(200).send("deleted successfully = " + data);
                 });
@@ -87,7 +87,7 @@ exports.deleteUser=(req,res)=>{
 exports.signIn = (req, res) => {
     const email = req.body.email;
     const password = req.body.password;
-    User.findOne({where:{email: email,password:password}}).then((result) => {
+    User.findOne({where:{email: email,password:password,isChecked:false}}).then((result) => {
         if(result) {
             res.status(200).send(result);
         } else {

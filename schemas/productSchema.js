@@ -21,6 +21,9 @@ const Products = db.define('products', {
     name: {
         type: Sequelize.STRING
     },
+    email:{
+        type: Sequelize.STRING
+    },
     quntity:{
         type: Sequelize.INTEGER,
     },
