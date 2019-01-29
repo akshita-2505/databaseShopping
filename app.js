@@ -6,6 +6,7 @@ var usersRouter = require('./routes/userRoutes');
 var categoriesRouter = require('./routes/categoriesRoutes');
 var subcategoriesRouter = require('./routes/subcategoriesRouter');
 var productsRouter = require('./routes/productRoutes');
+var addtocartsRouter = require('./routes/addtocartRoutes');
 
 var app = express();
 const {db} = require('./config/db');
@@ -23,6 +24,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public/productImage/')));
 app.use(express.static(path.join(__dirname, 'public/subcategoryImage/')));
 app.use(express.static(path.join(__dirname, 'public/categoryImage/')));
+app.use(express.static(path.join(__dirname, 'public/addtocartImage/')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
@@ -30,6 +32,7 @@ app.use('/users', usersRouter);
 app.use('/categories',categoriesRouter);
 app.use('/subcategories',subcategoriesRouter);
 app.use('/products',productsRouter);
+app.use('/addtocarts',addtocartsRouter);
 
 // app.use(function(req, res, next) {
 //   next(createError(404));
