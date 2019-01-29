@@ -7631,7 +7631,6 @@
       <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/routes/categoriesRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/productRoutes.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/routes/subcategoriesRouter.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/routes/userRoutes.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/schemas/categoriesSchema.js" afterDir="false" />
@@ -7646,10 +7645,7 @@
       <change afterPath="$PROJECT_DIR$/../untitled/exam.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/exam2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/productController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/userController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/productRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/productRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/productSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/productSchema.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -7665,17 +7661,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/productController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/userController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+            <state relative-caret-position="1515">
+              <caret line="101" column="55" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -7683,8 +7670,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/productRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -7766,8 +7753,8 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="94" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="103" />
     <option name="y" value="45" />
     <option name="width" value="1043" />
     <option name="height" value="668" />
@@ -7778,7 +7765,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -7789,32 +7775,13 @@
             <path>
               <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
               <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nodejsDatabase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nodejsDatabase" type="462c0819:PsiDirectoryNode" />
-              <item name="schemas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -7862,23 +7829,24 @@
       <workItem from="1548045246730" duration="3996000" />
       <workItem from="1548132824813" duration="18337000" />
       <workItem from="1548390794913" duration="5186000" />
-      <workItem from="1548416891457" duration="786000" />
+      <workItem from="1548416891457" duration="5234000" />
+      <workItem from="1548736468271" duration="209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37857000" />
+    <option name="totallyTimeSpent" value="42514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="94" y="45" width="1043" height="668" extended-state="1" />
+    <frame x="103" y="45" width="1043" height="668" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.26810175" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.26810175" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.2621528" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49902153" visible="true" weight="0.2621528" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50097847" side_tool="true" weight="0.2621528" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -8015,17 +7983,17 @@
     <entry file="file://$PROJECT_DIR$/routes/userimageRoutes.js" />
     <entry file="file://$PROJECT_DIR$/controller/userimageController.js" />
     <entry file="file://$PROJECT_DIR$/schemas/userImageSchema.js" />
-    <entry file="file://$PROJECT_DIR$/controller/productController.js">
+    <entry file="file://$PROJECT_DIR$/controller/userController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="328">
+          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/userController.js">
+    <entry file="file://$PROJECT_DIR$/controller/productController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        <state relative-caret-position="1515">
+          <caret line="101" column="55" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -8059,8 +8027,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/productRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

@@ -9,8 +9,8 @@ router.post('/', upload(UPLOAD_PATH).single('image'),user.uploadProduct);
 
 // router.get('/:productsId',user.getUserById);
 router.get('/:productsId',user.getUserBySCId);
-// router.get('/:productsId',user.getUserByEmail);
-router.put('/:productsId',user.userUpdateById);
+router.get('/email/:productsId',user.getUserByEmail);
+router.put('/update/:productsId',user.userUpdateById);
 router.delete('/:productsId',user.deleteUser);
 
 module.exports = router;
