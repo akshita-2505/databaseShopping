@@ -74,16 +74,11 @@
       <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../node-sequelize-article-master/schema/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller/addtocartController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/addtocartRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/addtocartSchema.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../seqDatabase/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/exam.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/exam2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/productSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/productSchema.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -324,12 +319,12 @@
       <workItem from="1548390794913" duration="5186000" />
       <workItem from="1548416891457" duration="5234000" />
       <workItem from="1548736468271" duration="9414000" />
-      <workItem from="1548756399171" duration="3124000" />
+      <workItem from="1548756399171" duration="3771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54843000" />
+    <option name="totallyTimeSpent" value="55490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="23" width="1043" height="668" extended-state="1" />
@@ -337,9 +332,9 @@
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.26810175" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.26810175" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4970646" visible="true" weight="0.21354167" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4970646" visible="true" weight="0.21354167" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5029354" side_tool="true" weight="0.21354167" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
